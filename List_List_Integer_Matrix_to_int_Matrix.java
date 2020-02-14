@@ -23,7 +23,7 @@ public class Convert_Matrix
 
 
 
-    // Funkcija koja pravi matricu kao List<List<Integer>> i popunjava je slučajnim brojevima od 0 do 9
+    // Funkcija koja pravi matricu kao List<List<Integer>> i popunjava je slučajnim brojevima od 0 do max
     public static List<List<Integer>>  Make_A_Matrix_As_a_List_List_Integer(int rows, int columns, int max)
     {
 	List<List<Integer>> list = new ArrayList<List<Integer>>();
